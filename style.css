@@ -1,0 +1,92 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #f5e6d3; /* light milktea background */
+}
+
+/* NAV */
+.nav {
+    background-color: #5c3d2e;
+    color: white;
+    padding: 15px;
+}
+
+.links {
+    float: right;
+}
+
+.links a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 100px;
+    background-color: #d2a679;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 350px;
+}
+
+.promo {
+    color: red;
+}
+
+/* BUTTON */
+.btn {
+    background-color: #5c3d2e;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* SECTION */
+.section {
+    padding: 20px;
+}
+
+/* FLEX CONTAINER */
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+/* BOX */
+.box {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 30%;
+    text-align: center;
+}
+
+.box img {
+    width: 100%;
+}
+
+/* PROMO BOX */
+.promo-box {
+    background-color: #ffe0b3;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #5c3d2e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* FORM */
+input, textarea {
+    width: 250px;
+}
