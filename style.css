@@ -6,13 +6,17 @@ body {
 
 /* NAV */
 .nav {
-    background-color: #5c3d2e;
+    background-color: #4a2c2a; 
     color: white;
-    padding: 15px;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 .links {
-    float: right;
+    display: flex;
+    gap: 20px; 
 }
 
 .links a {
