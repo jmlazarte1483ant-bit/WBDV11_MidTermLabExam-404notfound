@@ -1,2 +1,3 @@
 # WBDV11_MidTermLabExam-404notfound
-<img width="640" height="360" alt="image" src="https://github.com/user-attachments/assets/e2d0c37c-2660-444a-a66f-065757c67a96" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/08beb9a0-17dc-46ba-9662-6f7ebaadcac8" />
+
