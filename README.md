@@ -1,7 +1,7 @@
 # WBDV11_MidTermLabExam-404notfound
 **404 NOT FOUND**
 
-Group/Members: Sebastian sid Orbeta,Micaela kyla B. Lagrama,Carmelo Juan Del Rosario,johan ywel lazarte
+Group/Members: Sebastian sid Orbeta,Micaela Kyla B. Lagrama,Carmelo Juan Del Rosario,Johan Ywel lazarte
 
 The project consists of creating a simple multi-page website using HTML and CSS.  
 It focuses on building a clean layout, navigation, and basic design.
