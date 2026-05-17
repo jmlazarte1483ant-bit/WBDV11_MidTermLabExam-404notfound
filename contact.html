@@ -1,14 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Double D Brew</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+<!-- NAVIGATION -->
 <div class="nav">
-    <h2>Double D Brew</h2>
+    <h2>DOUBLE D BREW</h2>
+
     <div class="links">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
@@ -17,22 +29,73 @@
     </div>
 </div>
 
-<div class="section">
-    <h1>Contact</h1>
+<!-- CONTACT SECTION -->
+<section class="contact-section">
 
-    <p>Location: Siete Media CIR RD Brgy San isidro</p>
-    <p>Phone: 09123456789</p>
+    <div class="contact-container">
 
-    <form>
-        <input type="text" placeholder="Name"><br><br>
-        <input type="email" placeholder="Email"><br><br>
-        <textarea placeholder="Message"></textarea><br><br>
-        <input type="submit" value="Send">
-    </form>
-</div>
+        <!-- LEFT SIDE -->
+        <div class="contact-info">
 
+            <h1>Get In Touch</h1>
+
+            <p class="contact-subtitle">
+                We'd love to hear from you. Send us your questions,
+                feedback, or milk tea cravings!
+            </p>
+
+            <div class="info-box">
+                <h3>📍 Location</h3>
+                <p>Siete Media CIR RD Brgy San Isidro</p>
+            </div>
+
+            <div class="info-box">
+                <h3>📞 Phone</h3>
+                <p>0912-345-6789</p>
+            </div>
+
+            <div class="info-box">
+                <h3>🕒 Store Hours</h3>
+                <p>Monday - Sunday | 10AM - 9PM</p>
+            </div>
+
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="contact-form-box">
+
+            <form class="contact-form">
+
+                <h2>Send Message</h2>
+
+                <div class="input-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="input-group">
+                    <textarea rows="6" placeholder="Your Message" required></textarea>
+                </div>
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
 <div class="footer">
-    <p>Contact Page</p>
+    <h3>Double D Brew</h3>
+    <p>Premium Milk Tea for Everyone</p>
 </div>
 
 </body>
