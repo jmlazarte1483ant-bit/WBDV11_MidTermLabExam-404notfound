@@ -8,16 +8,25 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <!-- Google Font -->
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    
+    <style>
+    .error-text {
+        color: red;
+        font-size: 14px;
+        margin: 5px 0 10px 0;
+        display: none;
+    }
+    </style>
 </head>
 
 <body>
 
-<!-- NAVIGATION -->
+
 <div class="nav">
     <h2>DOUBLE D BREW</h2>
 
@@ -29,12 +38,12 @@
     </div>
 </div>
 
-<!-- CONTACT SECTION -->
+
 <section class="contact-section">
 
     <div class="contact-container">
 
-        <!-- LEFT SIDE -->
+        
         <div class="contact-info">
 
             <h1>Get In Touch</h1>
@@ -61,25 +70,36 @@
 
         </div>
 
-        <!-- RIGHT SIDE -->
+        
         <div class="contact-form-box">
 
             <form class="contact-form">
 
                 <h2>Send Message</h2>
 
+                
                 <div class="input-group">
-                    <input type="text" placeholder="Your Name" required>
+                    <input type="text" id="firstName" placeholder="First Name" required>
+                    <span class="error-text" id="firstNameError">Please indicate letters only</span>
                 </div>
 
+                
+                <div class="input-group">
+                    <input type="text" id="lastName" placeholder="Last Name" required>
+                    <span class="error-text" id="lastNameError">Please indicate letters only</span>
+                </div>
+
+               
                 <div class="input-group">
                     <input type="email" placeholder="Your Email" required>
                 </div>
 
+               
                 <div class="input-group">
                     <textarea rows="6" placeholder="Your Message" required></textarea>
                 </div>
 
+               
                 <button type="submit" class="btn">
                     Send Message
                 </button>
@@ -92,11 +112,41 @@
 
 </section>
 
-<!-- FOOTER -->
+
 <div class="footer">
     <h3>Double D Brew</h3>
     <p>Premium Milk Tea for Everyone</p>
 </div>
+
+
+<script>
+// Get fields and errors
+const firstName = document.getElementById('firstName');
+const lastName = document.getElementById('lastName');
+const firstNameError = document.getElementById('firstNameError');
+const lastNameError = document.getElementById('lastNameError');
+
+
+const onlyLetters = /^[A-Za-z\s\-]*$/;
+
+
+firstName.addEventListener('input', function() {
+    if (!onlyLetters.test(this.value)) {
+        firstNameError.style.display = 'block'; // Show red error
+    } else {
+        firstNameError.style.display = 'none'; // Hide error
+    }
+});
+
+
+lastName.addEventListener('input', function() {
+    if (!onlyLetters.test(this.value)) {
+        lastNameError.style.display = 'block'; // Show red error
+    } else {
+        lastNameError.style.display = 'none'; // Hide error
+    }
+});
+</script>
 
 </body>
 </html>
